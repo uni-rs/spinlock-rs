@@ -14,3 +14,6 @@ They may contain data,
 They are usable without `std`
 and static initializers are available.
 """
+
+[dependencies]
+core = { path = "../../rust-libs/core" }
