@@ -15,5 +15,10 @@ They are usable without `std`
 and static initializers are available.
 """
 
+[features]
+
+with-core = [ "core" ]
+
 [dependencies]
-core = { path = "../../rust-libs/core" }
+
+core = { path = "../../rust-libs/core", optional = true }
